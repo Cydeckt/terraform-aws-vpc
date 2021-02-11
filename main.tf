@@ -7,7 +7,7 @@ locals {
 }
 
 module "label" {
-  source  = "cloudposse/label/null"
+  source  = "cydeckt/label/null"
   version = "0.24.1"
 
   context = module.this.context
