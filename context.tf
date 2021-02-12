@@ -19,7 +19,7 @@
 #
 
 module "this" {
-  source  = "cloudposse/label/null"
+  source  = ".../label/null-label"
   version = "0.24.1" # requires Terraform >= 0.13.0
 
   enabled             = var.enabled

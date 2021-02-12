@@ -7,8 +7,7 @@ locals {
 }
 
 module "label" {
-  source  = "cydeckt/label/null"
-  version = "0.24.1"
+  source  = ".../label/null-label"
 
   context = module.this.context
 }
