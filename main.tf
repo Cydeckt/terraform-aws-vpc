@@ -7,7 +7,7 @@ locals {
 }
 
 module "label" {
-  source  = ".../label/null-label"
+  source  = "../null-label"
 
   context = module.this.context
 }
